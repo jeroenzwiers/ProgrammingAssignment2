@@ -1,8 +1,9 @@
 
-## Put comments here that give an overall description of what your
-## functions do
+## With these 2 functions you can make an object of a certain matrix 
+## and get the cached version 
 
-## Write a short comment describing this function
+## with this function we make an object of a certain matrix x where we 
+## also make the inversion 
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -20,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+## In this function we check if the inversion is already cached, if so 
+## then get it, if not then calculate it by the makeCacheMatrix function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
